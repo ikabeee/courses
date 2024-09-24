@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Course | Linking CSS</title>
+    <!--rel attribute-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <!--
+        <style>
+      p{
+        color:black;
+      }
+    </style>
+    -->
+
+    <h1>Linking CSS</h1>
+    <p>We've three different ways to linking CSS</p>
+    <ol>
+      <li><b>Line Styles</b>
+        <p style="color:blue;">We will give a style with only one code line.</p>
+        <h2>Example:</h2>
+        <img src="/assets/images/styleOnLine.png" alt="">
+        <p>Look how our syntax change when we put an attribute "Style" between the quotes we've css properties, in this case I'm setting a blue color on my paragraph</p>
+        <h3>You can see the source code!</h3>
+        <p><b>NOTE: This method it is a bad practice while we're coding because we're gonna have spaghetti code which means our code will not be easy to read.</b></p>
+        <h3>What we need to improve this issue?</h3>
+        <p>Well, each language must to have their archive and folder for example: </p>
+        <img src="/assets/images/cssFolder.png" alt="">
+        <p>Figure No.1</p>
+        <p>On this folder we're gonna save ours css archives it will be easier to read than have all mixed</p>
+
+      </li>
+      <li><b>Style tag</b>
+        <p>The "style" tag is used to define style information (CSS) for a document.</p>
+        <h2>Example:</h2>
+        <img src="/assets/images/styleTag.png" alt="">
+        <h2>NOTE: You can see this example on the source code!</h2>
+        <p>See how our style tag allows us to write css code without mixing HTML, JS (JavaScript), or PHP code but we've the same problem that we had on the Line Styles, we're mixing code.</p>
+      </li>
+      <li><b>Link tag</b>
+        <p>This is the best way to link a CSS archive, we need to separate ours styles because a real web page has hundreds of css lines. So we need a CSS folder like figure number 1.</p>
+        <h2>But how can I use my CSS archive?</h2>
+        <p>Simple, with a link tag which has an attribute "rel" (relationship 💑) and href this one will link css archive with HTML document.</p>
+        <h2>Example:</h2>
+        <img src="/assets/images/styleSheet.png" alt="">
+        <p>Figure No.2</p>
+        <p>Relationship means what will be the relation between our HTML code and the archive. We're specifying what type of archive we're using for.</p>
+
+      </li>
+    </ol>
+
+    <a href="/cssCourse/index.html">Click here for: Home</a>
+  </body>
+</html>

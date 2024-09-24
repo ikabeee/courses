@@ -1,0 +1,65 @@
+.padding-CSS{
+    width: 70%;
+    height: auto;
+  }
+
+  .form-input{
+    padding:9px 10px;
+    width: 100%;
+    background: black;
+    color: red;
+    margin: 10px;
+  }
+
+  .form-submit{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background: red;
+    color: white;
+    width: 50%;
+    
+  }
+
+  strong{
+    text-decoration: underline;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+
+  img{
+    margin-bottom: 10px;
+  }
+  .box1{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin-bottom: 10px;
+
+  }
+
+  .box2{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin-top: 10px
+
+  }
+    
+  .box{
+    height: 20px;
+    width: 100px;
+    margin: 10px;
+    background: red;
+  }
+
+  .form{
+    padding:30px;
+    /* Another example to write padding on CSS
+    padding: 10px(top) 0px(right) 10px (bottom) 10px (left)
+    padding: 10px(top and bottom) 10px(left and right)*/
+    background: red;
+    
+  }
+  h1{
+    text-align: center;
+  }

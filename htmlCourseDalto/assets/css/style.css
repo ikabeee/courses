@@ -1,0 +1,150 @@
+
+p{
+    color:black;
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+    text-align: justify;
+    /*font-style: italic;
+    font-weight: 600; 
+     What semicolon stand for? It's for separate properties*/
+  }
+  .right-text{
+    text-align: right;
+    font-weight: 600; 
+  }
+
+  .left-text{
+    text-align: left;
+    font-weight: 600; 
+  }
+  
+  .center-text{
+    text-align: center;
+    font-weight: 600; 
+  }
+
+  .justify-text{
+    text-align: justify;
+    font-weight: 600; 
+  }
+
+  .start-text{
+    text-align: start;
+    font-weight: 600; 
+  }
+
+  .end-text{
+    text-align: end;
+    font-weight: 600; 
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
+
+  .overline{
+    text-decoration: overline;
+  }
+
+  .line-through{
+    text-decoration: line-through;
+  }
+
+  .mixed-decoration{
+    text-decoration: overline line-through;
+  }
+
+  .none-text{
+    text-decoration: none;
+  }
+
+  .line-height-text{
+    line-height: 2;
+  }
+
+  .letter-spacing-text{
+    letter-spacing: 2px;
+  }
+
+  .text-transform-text{
+    text-transform: uppercase;
+    /*
+    text-transform: capitalize; first letter of each word on Capitalize
+    text-transform: lowercase; 
+    text-transform: full-width; for arabian languages
+    text-transform: inherit;
+    text-transform: initial;
+    */
+    }
+    .text-shadow-ex{
+      text-shadow: 10px 10px 2px #f99;
+    }
+
+    .word-wrap{
+      word-wrap: break-word;
+    }
+
+    .word-break{
+      word-break: break-all;
+    }
+    
+    .external-font{
+    font-family: Montserrat;
+    }
+
+    .montserrat-black{
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-weight: 900;
+    }
+
+    .image-CSS{
+      width: 400px;
+      height: auto;
+    }
+
+    .padding-CSS{
+      width: 600px;
+      height: auto;
+    }
+
+    .box-css{
+      background: red;
+      width: 400px;
+      height: 300px;
+    }
+
+    .test-text{
+      background: blue;
+      height: 150px;
+      margin: 0px 0px 121px;
+    }
+
+    .test-input{
+      width: 90%;
+    }
+
+
+    form{
+      width: 300px;
+    }
+
+  h1{
+    text-align: center;
+  }
+  
+  newElement {
+    color:red;
+  }
+
+  .test{
+    color:blue;
+  }
+
+  #idTest{
+    color:blueviolet; 
+   
+  }
+
+  
+  

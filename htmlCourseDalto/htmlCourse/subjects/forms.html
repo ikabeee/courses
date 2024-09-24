@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course | Forms Subject</title>
+    <style>
+        .gif-container {
+            margin: 20px 0;
+            float: left; 
+            margin-right: 20px; 
+        }
+
+        .clear {
+            clear: both; /* Limpiar el flotado del GIF */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <P>A form element is a container for different types of inputs elements.</P>
+    <h2>Have you see a login tab on Facebook?</h2>
+    <p>Well that's a form element where you can write your credentials and send it to a sever basically how's it works HTTP. You send information and the server will catch it and you receive a response. Look this gif</p>
+    <div class="gif-container">
+        <img src="https://lh6.googleusercontent.com/mKCOzjS7riDHoFKEwc2txu42qL1QbLnNDuII90WSOv_Hqfk9PVj1rgVzjqU5Z8nRHWjEdll3wTMb8Y6o7Ql97TetAKJ9378H2baWnMplhy6_vKnp9lSJwC8hvwN-BHBZdODDORZAbnJkCvoVGRamk-rv5Ahcycy4vHY83F1_WJbhRUpTM3L1GsSobUfKOg" alt="Server Client Example" width="300" height="300" align="left">
+    </div>
+
+    <div class="clear"></div>
+
+    <h2>This is a form container: </h2>
+    <!--Form Tag-->
+    <form action="">
+        <h2>Inputs types</h2>
+        <!--Input tag which indicate there's an input that user will send in our page. "type" indicates what kind of information the user is gonna send-->
+        <input type="text" placeholder="text">
+        <br>
+        <h3>If your page need an email, you must type "required" as attribute this attribute it's no gonna let the user leave an empty field </h3>
+        <input type="email" placeholder="email@email.com" required> 
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <b>Checkbox</b>
+        <input type="checkbox">
+        <br>
+        <input type="button" value="Button">
+        <br>
+        <b>Color</b>
+        <input type="color">
+        <br>
+        <b>Date</b>
+        <input type="date">
+        <br>
+        <b>Datetime local</b>
+        <input type="datetime-local">
+        <br>
+        <b>File</b>
+        <input type="file">
+        <br>
+        <input type="month" placeholder="Input month">
+        <br>
+        <b>Input number</b>
+        <input type="number">
+        <br>
+        <b>Input radio: It's made it for multiple choices</b>
+        <input type="radio">
+        <input type="radio">
+        <br>
+        <b>Input range</b>
+        <input type="range">
+        <br>
+        <b>Reset input</b>
+        <input type="reset">
+        <br>
+        <b>Search input</b>
+        <input type="search"> 
+        <br>
+        <b>Input telephone</b>
+        <input type="tel" placeholder="Your telephone"> 
+        <br>
+        <b>Time input</b>
+        <input type="time"> 
+        <br>
+        <b>Input URL</b>
+        <input type="url" placeholder="URL"> 
+        <br>
+        <b>Submit input: The most important input because you need to send your information to the server</b>
+        <input type="submit" value="Send"> 
+        <br>
+        <h2>NOTE: At the moment you click "send" the information it's gonna send all the fields to the server. But you MUST to set up the forms and thus the server are gonna to process it.</h2>
+        <h3>name and id attributes🌟</h3>
+        <ol>
+            <li>name</li>
+            <p>Allows the server to identify which field it is. It works as an identifier.</p>
+            <li>id</li>
+            <p>Specifies a unique id for an HTML element</p>
+        </ol>
+        
+    </form>
+
+    <br>
+    <a href="/htmlCourse/index.html">Click here for: Home</a>
+</body>
+</html>

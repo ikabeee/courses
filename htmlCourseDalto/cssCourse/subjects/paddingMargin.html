@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | Padding and Margin</title>
+   <!--<link rel="stylesheet" href="/assets/css/style.css"> -->
+    <link rel="stylesheet" href="/assets/css/paddingMargin.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+</head>
+<body>
+    <h1>Padding and Margin</h1>
+    <h2>Padding</h2>
+    <p>Padding is the space between the content and border from a box. Look how on right side we've a lot of letters as content and it has a border so doesn't have padding on it. On left side we've same content but with padding on it.</p>
+    <img class="padding-CSS"src="/assets/images/paddingExample.png" alt="Padding Example from Dalto">
+    <br><br>
+    <a href="https://www.youtube.com/watch?v=ELSm-G201Ls&list=PLWIsdGEdcFNnDPpqkMnPebQvWtCbNZhw8&index=5">Example where I took the image.</a>
+    <h2>More examples!</h2>
+
+    <form class="form" action="">
+        <input class="form-input" type="text" placeholder="Email">
+        <input class="form-input" type="password" placeholder="Password">
+        <input class="form-input form-submit" type="submit" value="Send">
+    </form>
+
+    <h2>Padding uses:</h2>
+    <p>Look the comments sections of our "paddingMargin.css" where we are writing different ways to set padding on CSS where the first one is:</p>
+    <ol>
+        <li>clock hands</li>
+        <p>0px (top) 0px(Right) 0px(Bottom) 0px(Left)</p>
+
+        <li>x-axis and y-axis</li>
+        <p>0px(top and bottom) 0px(left and right)</p>
+    </ol>
+    <img src="/assets/images/writePaddingCSS.png" alt="How to write padding on CSS">
+
+    <h2>Margin</h2>
+    <p>The margin CSS shorthand property sets the margin area on all four sides of an element.</p>
+
+    <form class="form" action="">
+        <input class="form-input" type="text" placeholder="Email">
+        <input class="form-input" type="password" placeholder="Password">
+        <input class="form-input form-submit" type="submit" value="Send">
+    </form>
+    <img src="/assets/images/marginExample.png" alt="Margin Example">
+    <p>Look how at the moment we are setting 10px margin items are separating among them.</p>
+    <h2>Another example!</h2>
+    <img src="/assets/images/marginExample2.png" alt="">
+    <p>It's the same functionality, we are separating 4 div boxes with margin property. It's important to know margins doesn't add up to each other instead the larger margin remains.</p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <h2>Let's take a look to margin collapse</h2>
+    <p>The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as <strong> margin collapsing.</strong></p>
+    <h2>Example</h2>
+    <img src="/assets/images/marginCollapse.png" alt="Margin Collapse Example">
+    <p>Look how our boxes doesn't add up other that's to say CSS is gonna to accept the biggest but if in case them have same size, they are going to use that. </p>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    
+    <br>
+    <a href="/cssCourse/index.html">Click here for: Home</a>
+</body>
+</html>
