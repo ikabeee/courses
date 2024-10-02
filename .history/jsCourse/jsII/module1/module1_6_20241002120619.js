@@ -95,20 +95,3 @@ console.log(circle2.radius);
 console.log(circle2.center.x);
 console.log(circle1 === circle2); // false The change in point1 is not visible in point3
 console.log(circle1.center === circle2.center); // true !
-
-//Deep cloning
-//
-let deepClone = function(obj) {
-    let newObj = {...obj};
-    //the function that we write will check the types of all properties of the copied object. 
-    for(property in newObj) {
-        //If a property turns out to be an object, the same function will be called for it again (so we use recursion). 
-        if(typeof newObj[property] === "object") {
-            //Recursion
-            newObj[property] = deepClone(newObj[property]);
-        }
-    }
-    return newObj;
-}
-
-//Homework

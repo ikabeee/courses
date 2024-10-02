@@ -110,5 +110,3 @@ let deepClone = function(obj) {
     }
     return newObj;
 }
-
-//Homework

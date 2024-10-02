@@ -104,11 +104,9 @@ let deepClone = function(obj) {
     for(property in newObj) {
         //If a property turns out to be an object, the same function will be called for it again (so we use recursion). 
         if(typeof newObj[property] === "object") {
-            //Recursion
+            //Recur
             newObj[property] = deepClone(newObj[property]);
         }
     }
     return newObj;
 }
-
-//Homework

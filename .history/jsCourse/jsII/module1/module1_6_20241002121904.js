@@ -101,14 +101,10 @@ console.log(circle1.center === circle2.center); // true !
 let deepClone = function(obj) {
     let newObj = {...obj};
     //the function that we write will check the types of all properties of the copied object. 
-    for(property in newObj) {
-        //If a property turns out to be an object, the same function will be called for it again (so we use recursion). 
+    for(property in newObj) {7
         if(typeof newObj[property] === "object") {
-            //Recursion
             newObj[property] = deepClone(newObj[property]);
         }
     }
     return newObj;
 }
-
-//Homework
