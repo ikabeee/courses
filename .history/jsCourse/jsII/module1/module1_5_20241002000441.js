@@ -12,7 +12,7 @@ if(!contact.notes) { // if undefined (check !)
     console.log(contact.notes);
 }
 
-// delete contact.notes;
+delete contact.notes;
 
 //Good practice! to test if a given object exist before trying to read it.
 console.log(contact.notes); // -> undefined

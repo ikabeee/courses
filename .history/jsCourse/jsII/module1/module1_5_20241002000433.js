@@ -12,7 +12,7 @@ if(!contact.notes) { // if undefined (check !)
     console.log(contact.notes);
 }
 
-// delete contact.notes;
+delete contact.notes;
 
 //Good practice! to test if a given object exist before trying to read it.
 console.log(contact.notes); // -> undefined
@@ -59,4 +59,4 @@ for (x in person){
 // Retrieve the name of all objects props is to use the "Object.keys" method
 //This method returns an array of property names, which we can use in any way we want
 let keys = Object.keys(contact);
-console.log(keys);
+
