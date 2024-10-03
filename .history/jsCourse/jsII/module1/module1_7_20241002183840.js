@@ -82,7 +82,7 @@ console.log(contact.tel);
 contact.tel = "100-100-1000"; //we updated "_tel" through the setter
 console.log(contact.tel);
 
-//They are often used to create fake fields that are, for example, aggregated from the values of several real fields, modified on the fly, validated, etc.
+
 
 let contact = {
     _age: 36,

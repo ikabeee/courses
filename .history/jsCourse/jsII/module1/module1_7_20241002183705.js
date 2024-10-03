@@ -78,20 +78,6 @@ let contact = {
     get tel() {return this._tel;},
     set tel(t) { this._tel = t;}
 };
-console.log(contact.tel); 
-contact.tel = "100-100-1000"; //we updated "_tel" through the setter
 console.log(contact.tel);
-
-//They are often used to create fake fields that are, for example, aggregated from the values of several real fields, modified on the fly, validated, etc.
-
-let contact = {
-    _age: 36,
-   firstName : "David",
-    lastName : "Taylor",
-    get fullName() {return `${this.firstName} ${ this.lastName}`;},
-    get age() { return this._age;},
-    set age(a) { if( a > 0) this._age = a;}
-};
-console.log(contact.fullName);
-contact.age = -20;
-console.log(contact.age);
+contact.tel = "100-100-1000"; //we updated ""
+console.log(contact.tel);

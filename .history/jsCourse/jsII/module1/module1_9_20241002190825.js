@@ -1,0 +1,1 @@
+//Other ways to create objects
