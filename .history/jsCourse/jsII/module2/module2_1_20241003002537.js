@@ -57,25 +57,10 @@ class AlmostEmptyClass {
 let almostEmptyObject = new AlmostEmptyClass(120); // -> 120
 almostEmptyObject.sayHi(); // -> Hi!
 
-class VehicleClass{ //We declared a class
-    constructor({id, latitude, longitude}){ //constructor
+class Vehicle{
+    constructor({id, latitude, longitude}){
         this.setPosition = function ({latitude, longitude}) {
-            this.time = Date.now();
-            this.longitude = longitude;
-            this.latitude = latitude;
-        };
-        this.getPosition - function () {
-            return{
-                latitude: this.latitude,
-                longitude: this.longitude
-            };
-        };
-        //props
-        this.id = id;
-        this.status = 'unavailable';
-        this.setPosition({latitude, longitude}); //Ini//initiation stage.
-    };
-};
-//creating object
-let vehicle5 = new VehicleClass({id: "AL1024", latitude: 59.367647, longitude: 18.213451});
-let vehicle4 = new Vehicle({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
+            this.time = 
+        }
+    }
+}

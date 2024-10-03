@@ -57,7 +57,7 @@ class AlmostEmptyClass {
 let almostEmptyObject = new AlmostEmptyClass(120); // -> 120
 almostEmptyObject.sayHi(); // -> Hi!
 
-class VehicleClass{ //We declared a class
+class VehicleClass{ //
     constructor({id, latitude, longitude}){ //constructor
         this.setPosition = function ({latitude, longitude}) {
             this.time = Date.now();

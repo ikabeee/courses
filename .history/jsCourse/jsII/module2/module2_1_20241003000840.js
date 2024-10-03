@@ -22,60 +22,20 @@ console.log(vehicle1);
 
 //Another way to create classes
 let Vehicle2 = function({id, latitude, longitude}){ //constructor
-    this.setPosition = function({latitude, longitude}) { //setting props with a constructor method
+    this.setPosition = function({latitude, longitude}) { //setting props with a constructor
         this.time = Date.now();
         this.longitude = longitude;
         this.latitude = latitude;
     };
-    this.getPosition = function() { //getting props information with a constructor method
+    this.getPosition = function() { 
         return {
             latitude: this.latitude,
             longitude: this.longitude
         };
     };
-    //props
     this.id = id;
     this.status = "unavailable";
-    this.setPosition({latitude, longitude});//initiation stage.
+    this.setPosition({latitude, longitude});
 };
 let vehicle01 = new Vehicle2({id: "AL1024", latitude: 59.367647, longitude: 18.213451});
 let vehicle02 = new Vehicle2({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
-
-//simplest form class declaration 
-class EmptyClass {};
-let emptyObject = new EmptyClass; //Creating a new object
-
-class AlmostEmptyClass {
-    constructor(sth){ //Each class should have a constructor, that is, a function that will be called when creating a new object on its basis.
-        console.log(sth);
-    };
-    sayHi(){ //Method
-        console.log("Hi!"); 
-    };
-};
-
-let almostEmptyObject = new AlmostEmptyClass(120); // -> 120
-almostEmptyObject.sayHi(); // -> Hi!
-
-class VehicleClass{ //We declared a class
-    constructor({id, latitude, longitude}){ //constructor
-        this.setPosition = function ({latitude, longitude}) {
-            this.time = Date.now();
-            this.longitude = longitude;
-            this.latitude = latitude;
-        };
-        this.getPosition - function () {
-            return{
-                latitude: this.latitude,
-                longitude: this.longitude
-            };
-        };
-        //props
-        this.id = id;
-        this.status = 'unavailable';
-        this.setPosition({latitude, longitude}); //Ini//initiation stage.
-    };
-};
-//creating object
-let vehicle5 = new VehicleClass({id: "AL1024", latitude: 59.367647, longitude: 18.213451});
-let vehicle4 = new Vehicle({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
