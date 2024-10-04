@@ -84,10 +84,8 @@ let vehicle4 = new Vehicle({ longitude: 18.213423, latitude: 59.367628, id: "AL1
 
 class VehicleTwo {
     constructor({id, latitude, longitude}){
-        //props
         this.id = id;
         this.status = "unavailable";
-        //method
         this.setPosition({latitude, longitude});
     };
     setPosition({latitude, longitude}) {
@@ -102,11 +100,8 @@ class VehicleTwo {
         };
     };
 };
-//Creating objects
-let vehicle = new VehicleTwo({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
-//Setting positions to vehicle
+let vehicle = new Vehicle({longitude: 18.213423, latitude: 59.367628, id: "AL1024"});
 vehicle.setPosition({longitude: 18.193121, latitude: 59.378654});
-//getting position from a object
 console.log(vehicle.getPosition());
 
 
